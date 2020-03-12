@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渣男音乐</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="bigbox">
+        <header>
+            <div class="headeTop">
+                <div class="Icon">
+                    <div class="icon-img">
+                        <img class="auto-img" src="./images/PG-One.jpg" alt="">
+                    </div>
+                    <div class="username">
+                        <span>渣男音乐厅</span>
+                    </div>
+                    <div class="search-box">
+                        
+                        <input type="text" placeholder="吴亦凡 从此以后">
+                        <div class="search-img">
+                            <img class="auto-img" src="./images/search.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="content-left">
+                <div class="music-nav">
+                    <div class="active" data-index="defaultmusic" data-count="defaultcount">
+                        <span>
+                            默认
+                        </span>
+                    </div>
+                    <div data-index="recentlymusic" data-count="recentlycount">
+                        <span>
+                            最近
+                        </span>
+                    </div>
+                    <div data-index="lovemusic" data-count="lovecount">
+                        <span>
+                            喜欢
+                        </span>
+                    </div>
+                </div>
+                <div class="musics">
+                    <div id="defaultmusic" class="show defaultmusic"></div>
+                    <div id="recentlymusic"></div>
+                    <div id="lovemusic"></div>
+                </div>
+            </div>
+
+            <div class="content-right">
+                <div class="navigate">
+                    <div>
+                        歌单
+                    </div>
+                    <div>
+                        MV
+                    </div>
+                    <div class="active">
+                        歌词
+                    </div>
+                </div>
+                <!-- 歌词 -->
+                <div class="song-word">
+                    <ul class="song-word-list">
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <audio id="audio" src=""></audio>
+            <div class="progress">
+                <div class="pro-active">
+                </div>
+                <div class="mask"></div>
+                <div class="layer"></div>
+            </div>
+
+            <div class="music-information">
+                <div class="bottom-left">
+                    <div class="imgbox">
+                        <img class="auto-img" src="./images/guangpan.jpg" alt="">
+                    </div>
+                    <div class="name-time">
+                        <span class="music-name">渣男音乐</span>
+                        <div class="music-time">
+                            <span class="gap-time">00:00</span>
+                            /
+                            <span class="all-time">00:00</span>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="bottom-centre">
+                    <div class="centrebox">
+                        <div class="prev-box">
+                            <img class="auto-img" src="./images/prev.png" alt="">
+                        </div>
+                        <div id="playbox" class="play-box" data-play="0"></div>
+                        <div class="next-box">
+                            <img class="auto-img" src="./images/next.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bottom-right">
+                    <div class="speed-box">
+                        <div class="multiple">
+                            倍速
+                            <div class="top-img">
+                                <img class="auto-img" src="./images/top.png" alt="">
+                            </div>
+                        </div>
+                        <div class="standard">
+                            标准
+                            <div class="top-img">
+                                <img class="auto-img" src="./images/top.png" alt="">
+                            </div>
+                        </div>
+                        <div class="sound">音效
+                            <div class="top-img">
+                                <img class="auto-img" src="./images/top.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pattern">
+                        <div class="liebiao" name="0" title="列表循环">
+                            <img class="auto-img" src="./images/liebiao.png" alt="">
+                        </div>
+                        <div class="xunhuan">
+                            <ul>
+                                <li name="0">列表循环</li>
+                                <li name="1">单曲循环</li>
+                                <li name="2">随机播放</li>
+                            </ul>
+                        </div>
+                        <div class="volume">
+                            <img class="auto-img" src="./images/volume.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
